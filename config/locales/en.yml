@@ -2,4 +2,45 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  application:
+    work_experience: 
+      exp_resp_1_1: "managing and controlling work of small teams (6 programmers)"
+      exp_resp_1_2: "design and developing two big ERP systems (over 80 databases tables each)"
+      exp_resp_1_3: "analysis and collection of requirements from customers"
+      exp_resp_1_4: "organizing the applications testing"
+      exp_resp_1_5: "interviewing"
+      exp_resp_1_6: "developing popular web service (600 000 page views per month)"
+      exp_resp_1_7: "creation of web services and a dozen or so pages that are based on CMS"
+      exp_resp_1_8: "programming web applications based on Ruby (Ruby on Rails), PHP (Kohana, Symfony, codeigniter), Javascript (node.js, backbone.js, jQuery, extJS, prototype)"
+      exp_resp_1_9: "code optimalization - detecting and rewriting slow SQL quiries"
+
+      exp_resp_2_1: "creating HTML code, based on PSD files"
+      exp_resp_2_2: "instalation and personalization of internet application - e-commerce: SOTE 4, SOTE 5, quickCart and WordPress, Joomla, Mantis"
+      exp_resp_2_3: "programming web applications based on PHP, JavaScript, jQuery"
+      exp_resp_2_4: "installation and maintenance of dedicated server with DirectAdmin software"
+    
+    skills:
+      rails: "Have over 2 years experience of Rails and love developing applications in the \"Rails Way\". Worked with versions 2.x, 3.0, 3.1, 3.2 with many popular gems, have knowledge of capistrano deployment, RSpec testing environment, active participant in the Rails community, creating and updating existing Ruby Gems."
+      php: "Working with PHP since I`m 16. Founder and developer of company framework (modeled on the RoR) which helps to develops large ERP applications (contains over 80 database tables). Have knowledge of frameworks - Kohana, CodeIgniter, Symfony."
+      sql: "Know everything about JOINs, HAVINGs and UNIONs, making query optimalisations, detecting and removing slow queries. Now looking for opportunities to gain more experience with large scalable applications."
+      code_testing: "Creating well tested code, using RSpec, Cucumber and Capybara as testing frameworks"
+      design_patterns: "Adherence to the following rules: DRY; small functions; one function - one task; MVC; making application in Rails WAY and more..."
+      html5: "@todo"
+      javascript: "@todo"
+      photoshop: "@todo"
+      ui_design: "@todo"
+      other: "Management skills; used to work with SCRUM; honesty; communicative - creative, unconventional thinking; typing speed over 560 chars per minute;"
+
+      server_maintenance_label: "Server Maintenance"
+      other_label: "Inne"
+
+    cv:
+      personal_info_header: "Personal Info"
+      education_header: "Education"
+      work_experience_header: "Work experience"
+      skills_header: "Skills"
+      hobbies_header: "Hobbies"
+      find_me_on_header: "Find me on"
+      looking_for_header: "Looking for"
+      looking_for: "Creative team, doing their work with passion, not affraid of challenges. Searching for the simplest solutions to the most complex problems."
+

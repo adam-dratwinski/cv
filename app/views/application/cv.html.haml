@@ -3,23 +3,23 @@
   .me-wrapper
     .me
       = image_tag "/assets/me.jpg"
-  .personal-info-group.group
-    %h2 Personal info
+  #personal_info_group.group
+    %h2= t(".personal_info_header")
     = render "personal_info"
-  .experience-group.group
-    %h2 Education
+  #education_group.group
+    %h2= t(".education_header") 
     = render "education"
   #work_experience_group.group
-    %h2 Work Experience
+    %h2= t(".work_experience_header")
     = render "work_experience"
 %section.page
   #skills_group.group
-    %h2 Skills
+    %h2= t(".skills_header")
     = render "skills"
 %section.page
-  .hobbies-group.group
+  #hobbies_group.group
     .hobbies
-      %h2 Hobbies
+      %h2= t(".hobbies_header")
       %ul
         %li.internet
           .icon-wrapper
@@ -41,10 +41,6 @@
           .icon-wrapper
             .icon
           %h4 Baristics
-        %li.photography
-          .icon-wrapper
-            .icon
-          %h4 Photography
         %li.speedway
           .icon-wrapper
             .icon
@@ -55,7 +51,7 @@
           %h4 Fashion
   #find_me_group.group
     .find-me
-      %h2 Find me on
+      %h2= t(".find_me_on_header")
       %ul
         %li
           = link_to " ", "https://www.facebook.com/adam.dratwinski", class: "find-me-icon icon-facebook"
@@ -66,7 +62,7 @@
         %li 
           = link_to " ", "https://github.com/boooz", class: "find-me-icon icon-github"
           = link_to "boooz", "https://github.com/boooz"
-  .looking-for-group.group
+  #looking_for.group
     .looking-for
-      %h2 Looking for
-      %p Creative team, doing their work with passion, not affraid of challenges. Searching for the simplest solutions to the most complex problems.
+      %h2= t(".looking_for_header") 
+      %p= t(".looking_for")

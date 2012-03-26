@@ -152,6 +152,12 @@ h1 {
 .skill p {
   font-size: 13px;
 }
+
+
+.hobbies {
+  border-bottom: 1px solid #ddd;
+}
+
 .hobbies li {
   vertical-align: top;
   opacity: 0.8;
@@ -192,33 +198,36 @@ h1 {
 }
 .hobbies .icon {
   display: block;
-  width: 67px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   padding: 5px;
 }
+
+@import "hobbies-icons/*.png"; // */
+
 .hobbies .internet .icon {
-  background: url(/assets/internet.png) 50% 50% no-repeat;
+  @include hobbies-icons-sprite(internet);
 }
 .hobbies .cycling .icon {
-  background: url(/assets/cycling.png) 50% 50% no-repeat;
+  @include hobbies-icons-sprite(cycling);
 }
 .hobbies .swimming .icon {
-  background: url(/assets/swimming.png) 50% 50% no-repeat;
+  @include hobbies-icons-sprite(swimming);
 }
 .hobbies .traveling .icon {
-  background: url(/assets/traveling.png) 50% 50% no-repeat;
+  @include hobbies-icons-sprite(traveling);
 }
 .hobbies .coffee .icon {
-  background: url(/assets/coffee.png) 50% 50% no-repeat;
+  @include hobbies-icons-sprite(coffee);
 }
 .hobbies .photography .icon {
-  background: url(/assets/photography.png) 50% 50% no-repeat;
+  @include hobbies-icons-sprite(photography);
 }
 .hobbies .speedway .icon {
-  background: url(/assets/speedway.png) 50% 50% no-repeat;
+  @include hobbies-icons-sprite(speedway);
 }
 .hobbies .fashion .icon {
-  background: url(/assets/fashion.png) 50% 50% no-repeat;
+  @include hobbies-icons-sprite(fashion);
 }
 
 h2 {
@@ -292,6 +301,12 @@ dl {
     display: inline-block;
     min-width: 100px;
   }
+  .server-maintenance {
+    li {
+      width: auto;
+      display: inline-block;
+    }
+  }
 }
 
 #work_experience_group {
@@ -300,8 +315,12 @@ dl {
   }
 }
 
-#find_me_group {
+@import "find-me-icons/*.png"; // */
 
+#find_me_group {
+  .find-me {
+    border-bottom: 1px solid #ddd;
+  }
   .find-me-icon {
     width: 32px;
     height: 32px;
@@ -312,16 +331,18 @@ dl {
     display: inline-block;
     margin-right: 10px;
   }
+
+
   .icon-facebook {
-    background: url(/assets/find_me_icons/facebook.png) 0 0 no-repeat;
+    @include find-me-icons-sprite(facebook);
     vertical-align: middle;
   }
   .icon-google-plus {
-    background: url(/assets/find_me_icons/google-plus.png) 0 0 no-repeat;
+    @include find-me-icons-sprite(google-plus);
     vertical-align: middle;
   }
   .icon-github {
-    background: url(/assets/find_me_icons/github.png) 0 0 no-repeat;
+    @include find-me-icons-sprite(github);
     vertical-align: middle;
   }
 }

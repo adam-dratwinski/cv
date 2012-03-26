@@ -187,3 +187,45 @@ pl:
       full_messages:
         format: "%{attribute}%{message}"
 
+  application: 
+    work_experience:
+      exp_resp_1_1: "zarządzanie i kontrola pracy małych grup programistów (do 6 osób)"
+      exp_resp_1_2: "projektowanie i rozwój dwoch dużych systemów ERP (ponad 80 tabel w bazie danych)"
+      exp_resp_1_3: "Analiza i zbieranie wymagań od klientów"
+      exp_resp_1_4: "Organizowanie testów aplikacji"
+      exp_resp_1_5: "Przeprowadzanie rozmów, tworzenie testów rekrutacyjnych"
+      exp_resp_1_6: "Rozwijanie popularnego portalu internetowego (600 000 odsłon / mc)"
+      exp_resp_1_7: "Tworzenie portali i aplikacji internetowych, stworzenie kilkunastu aplikacji opartych o system CMS"
+      exp_resp_1_8: "Programowanie aplikacji w technologiach (Ruby On Rails), PHP (Kohana, Symfony, Codeigniter), Javascript (node.js, backbone.js, jQuery, extJS, prototype)"
+      exp_resp_1_9: "Optymalizacja kodu, wykrywanie i naprawianie wolnych zapytań SQL"
+      exp_resp_1_10: "Integracja zewnętrznych API - m.in Google, Facebook, Allegro"
+
+      exp_resp_2_1: "Tworzenie kodu HTML na podstawie matryc PSD"
+      exp_resp_2_2: "Instalacja i presonalizacja aplikacji E-Commerce (SOTE 4, SOTE 5) i innych (WordPress, Joomla, Mantis)"
+      exp_resp_2_3: "Programowanie aplikacji internetowych opartych o JavaScript i jQuery"
+      exp_resp_2_4: "Instalacja i zarządzanie dedykowanym serwerem z oprogramowaniem DirectAdmin"
+
+    skills:
+      rails: "Posiadam ponad 2 letnie doświadczenie pracy z Ruby On Rails. Uwielbiam ten framework za jego prostotę i przejrzystość, potężne możliwości i aktywną społeczność. Staram się tworzyć aplikację w taki sposób w jaki Railsy są do tego przeznaczone. Miałem przyjemność pracy z wersjami 2.x, 3.0, 3.1, 3.2. W Wolnych chwilach lubię aktywnie udzielać się w społeczności Rails, tworząc i aktualizując istniejące Gemy."
+      php: "W PHP programowałem odkąd skończyłem 16 lat. Jestem założycielem i deweloperem firmowego frameworka (wzorowanego na RoR), na którym oparte zostały 3 duże aplikację (posiadające ponad 80 tabel w bazie danych). W mojej pracy używałem również frameworków Kohana, CodeIgniter i Symfony. Aktualnie porzuciłem programowanie w PHP na rzecz Ruby On Rails."
+      sql: "Wiem wszystko o JOINach, HAVINGach, GROUP_BY`ach i UNIONach, zajmowałem się również optymalizacją zapytań. Aktualnie szukam okazji do pogłebienia mojej wiedzy z zakresu skalowalności dużych aplikacji."
+      code_testing: "Dokładam wszelkich starań, aby tworzony przeze mnie kod był dobrze przetestowany, dotychczas pomagały mi w tym frameworki RSpec, Cucumber i Capybara"
+      design_patterns: "Nie są mi obce wzorce projektowe. Pisząc mój kod staram się aby był czytelny również dla innych programistów, stosując zasady DRY i SRP, opisowe nazwy, jak najmniejszych funkcji, czytanie mojego kodu jest przyjemnością."
+      html5: "Będąc na bierząco ze wszystkimi technicznymi nowinkami, tworzę kod przejrzysty i logicznie zorganizowany. Cięcie matryc do HTML nie sprawia mi żadnych problemów i robię to bardzo szybko. Połączenie poczucia estetyki i umiejętności czytelnego prezentowania stron i ich treści, sprawia że czuję się również pewnie działając na polu frontendu."
+      javascript: "Doświadczyłem pracy zarówno z czystym Javascript`em jak i również z frameworkami jQuery, Ext JS, backbone.js oraz ostatnio node.js. Przy użyciu tych narzędzi z przyjemnością dodaję elementy dynamicznej interakcji do tworzonych aplikacji."
+      photoshop: "Photoshop jest aplikacją, w której poruszam się biegle. Dodając do tego doświadczenie, które nabyłem podczas rekonstrukcji matryc i zmysł estetyczny jestem w stanie tworzyć proste i czytelne layouty stron i aplikacji."
+      ui_design: "Pracując na stanowisku kierowniczym, wiele razy spotkałem się z sytuacją, w której byłem zmuszony sprostać wyzwaniu tworzenia intuicyjnych i łatwych w obsłudze interfejsów użytkownika."
+      other: "Dodatkowo posiadam doświadczenie przy prowadzeniu małych grupami programistów (do 6 osób), używając metodologi SCRUM do zarządzania projektami. Jestem osobą uczciwą, komunikatywną, myślącą niekonwencjonalnie."
+
+      server_maintenance_label: "Administracja serwerów"
+      other_label: "Inne"
+
+    cv:
+      personal_info_header: "Informacje osobiste"
+      education_header: "Wykształcenie"
+      work_experience_header: "Doświadczenie zawodowe"
+      skills_header: "Umiejętności"
+      hobbies_header: "Hobby"
+      find_me_on_header: "Tu mnie znajdziesz"
+      looking_for_header: "Szukam"
+      looking_for: "Kreatywnej drużyny, wykonującej swoją pracę z pasją. Nie bojącej się wyzwań. Poszukującą najprostszych rozwiązań, najbardziej złożonych problemów."
