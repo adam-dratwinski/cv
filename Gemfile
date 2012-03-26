@@ -64,3 +64,6 @@ group :development, :test do
   gem "nifty-generators"
   gem "deployer_files"
 end
+
+gem "capistrano"
+gem "unicorn"
