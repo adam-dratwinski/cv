@@ -28,16 +28,14 @@
           = link_to "APPNAME", "#", class: "brand"
           .container.nav-collapse
             %ul.nav
-              %li= link_to "test", "#"
+              %li= link_to "Curriculum Vitae", "#"
+              %li= link_to "Portfolio", "#"
+              %li= link_to "Rails gems experience", "#"
 
     .page-wrapper
-      .container.page
+      .container
         - flash.each do |name, msg|
           %div{:class => "alert alert-#{name == :notice ? "success" : "error"}"}
             %a.close{"data-dismiss" => "alert"} x
             = msg
-        .row
-          .span2
-            %p span2 content
-          .span10
-            = yield
+        = yield

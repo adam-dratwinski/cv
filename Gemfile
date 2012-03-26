@@ -18,6 +18,7 @@ group :assets do
   # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
+  gem "compass-rails"
 end
 
 gem 'jquery-rails'
@@ -43,6 +44,7 @@ gem "formtastic"
 gem "friendly_id"
 gem "faker"
 gem "anjlab-bootstrap-rails", :require => "bootstrap-rails"
+
 group :development, :test do
   gem "linecache19", :git => "git://github.com/mark-moseley/linecache"
   gem "ruby-debug-base19x", "~> 0.11.30.pre4"

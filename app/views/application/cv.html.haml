@@ -1,0 +1,72 @@
+%section.page
+  %h1.full-name Adam Dratwiński
+  .me-wrapper
+    .me
+      = image_tag "/assets/me.jpg"
+  .personal-info-group.group
+    %h2 Personal info
+    = render "personal_info"
+  .experience-group.group
+    %h2 Education
+    = render "education"
+  #work_experience_group.group
+    %h2 Work Experience
+    = render "work_experience"
+%section.page
+  #skills_group.group
+    %h2 Skills
+    = render "skills"
+%section.page
+  .hobbies-group.group
+    .hobbies
+      %h2 Hobbies
+      %ul
+        %li.internet
+          .icon-wrapper
+            .icon
+          %h4 Internet
+        %li.swimming
+          .icon-wrapper
+            .icon
+          %h4 Swiming
+        %li.cycling
+          .icon-wrapper
+            .icon
+          %h4 Cycling
+        %li.traveling
+          .icon-wrapper
+            .icon
+          %h4 Traveling
+        %li.coffee
+          .icon-wrapper
+            .icon
+          %h4 Baristics
+        %li.photography
+          .icon-wrapper
+            .icon
+          %h4 Photography
+        %li.speedway
+          .icon-wrapper
+            .icon
+          %h4 Speedway
+        %li.fashion
+          .icon-wrapper
+            .icon
+          %h4 Fashion
+  #find_me_group.group
+    .find-me
+      %h2 Find me on
+      %ul
+        %li
+          = link_to " ", "https://www.facebook.com/adam.dratwinski", class: "find-me-icon icon-facebook"
+          = link_to "adam.dratwinski", "https://www.facebook.com/adam.dratwinski"
+        %li 
+          = link_to " ", "https://plus.google.com/u/0/114751623322945392883/", class: "find-me-icon icon-google-plus"
+          = link_to "adam.dratwinski@gmail.com", "https://plus.google.com/u/0/114751623322945392883/"
+        %li 
+          = link_to " ", "https://github.com/boooz", class: "find-me-icon icon-github"
+          = link_to "boooz", "https://github.com/boooz"
+  .looking-for-group.group
+    .looking-for
+      %h2 Looking for
+      %p Creative team, doing their work with passion, not affraid of challenges. Searching for the simplest solutions to the most complex problems.
