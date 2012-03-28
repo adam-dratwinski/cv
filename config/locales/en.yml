@@ -3,9 +3,36 @@
 
 en:
   application:
+    personal_info:
+      nationality: "Nationality"
+      male: "Male"
+      polish: "Polish"
+      marital_status: "Marital Status"
+      single: "Single"
+      date_of_birth: "Date of birth"
+      4_of_september: "4th of September 1987"
+      address: "Full Address"
+      phone_number: "Phone number"
+      email: "E-mail address"
+      website: "Website"
+      languages: "Languages"
+      languages_values: "Polish - native, English - fluent"
+
+    education:
+      school: "School"
+      school_value: "General/Comprehensive Secondary School in Gorzów"  
+      specialization: "Specialization"
+      specialization_value: "Information Technology, Mathematics and English"
+
     work_experience: 
+      company: "Company"
+      occupations: "Occupations"
+      responsibilities: "Responsibilities"
+      since_2009_to_now: "(from 2009-09 to now)"
+      since_2008_to_2009: "(from 2008-04 to 2009-09)"
+
       exp_resp_1_1: "managing and controlling work of small teams (6 programmers)"
-      exp_resp_1_2: "design and developing two big ERP systems (over 80 databases tables each)"
+      exp_resp_1_2: "design and developing three big ERP systems (over 80 databases tables each)"
       exp_resp_1_3: "analysis and collection of requirements from customers"
       exp_resp_1_4: "organizing the applications testing"
       exp_resp_1_5: "interviewing"
@@ -13,6 +40,7 @@ en:
       exp_resp_1_7: "creation of web services and a dozen or so pages that are based on CMS"
       exp_resp_1_8: "programming web applications based on Ruby (Ruby on Rails), PHP (Kohana, Symfony, codeigniter), Javascript (node.js, backbone.js, jQuery, extJS, prototype)"
       exp_resp_1_9: "code optimalization - detecting and rewriting slow SQL quiries"
+      exp_resp_1_10: "integration of external API - i.a. Google, Facebook, Allegro"
 
       exp_resp_2_1: "creating HTML code, based on PSD files"
       exp_resp_2_2: "instalation and personalization of internet application - e-commerce: SOTE 4, SOTE 5, quickCart and WordPress, Joomla, Mantis"
@@ -20,19 +48,19 @@ en:
       exp_resp_2_4: "installation and maintenance of dedicated server with DirectAdmin software"
     
     skills:
-      rails: "Have over 2 years experience of Rails and love developing applications in the \"Rails Way\". Worked with versions 2.x, 3.0, 3.1, 3.2 with many popular gems, have knowledge of capistrano deployment, RSpec testing environment, active participant in the Rails community, creating and updating existing Ruby Gems."
-      php: "Working with PHP since I`m 16. Founder and developer of company framework (modeled on the RoR) which helps to develops large ERP applications (contains over 80 database tables). Have knowledge of frameworks - Kohana, CodeIgniter, Symfony."
-      sql: "Know everything about JOINs, HAVINGs and UNIONs, making query optimalisations, detecting and removing slow queries. Now looking for opportunities to gain more experience with large scalable applications."
-      code_testing: "Creating well tested code, using RSpec, Cucumber and Capybara as testing frameworks"
-      design_patterns: "Adherence to the following rules: DRY; small functions; one function - one task; MVC; making application in Rails WAY and more..."
-      html5: "@todo"
-      javascript: "@todo"
-      photoshop: "@todo"
-      ui_design: "@todo"
-      other: "Management skills; used to work with SCRUM; honesty; communicative - creative, unconventional thinking; typing speed over 560 chars per minute;"
+      rails: "2 years experience of developing Ruby on Rails applications. I loved this language for his simplicity and clearance, huge capabilities and active community. Worked with versions 2.x, 3.0, 3.1, 3.2 with many popular gems (such as Sphinx, Capystrano, RSpec, Cucumber, CanCan, Unicorn, Thin, Formtastic, SimpleForm, Twitter bootstrap, Compass, Guard and many many more). Active participant in the Rails community, also creating and updating existing Ruby Gems."
+      php: "9 years of working with PHP. Founder and developer of company framework (modeled on the RoR) which helps to develops large ERP applications (i.e. contains over 80 database tables). Have knowledge of frameworks - Kohana, CodeIgniter, Symfony."
+      sql: "Fully experienced in JOINs, HAVINGs and UNIONs, making query optimalisations, detecting and removing slow queries. Now looking for opportunities to gain more experience with large scalable applications."
+      code_testing: "Maker every effort to create well-tested code, using RSpec, Cucumber and Capybara as testing frameworks."
+      design_patterns: "Design patterns are not foreign to me. While writting my code I try to make it clear even for other programmers. Applying DRY and SRP principles, creating well named, the least functions, makes reading of my code is a pleasure."
+      html5: "Being up to date with all technologies innovations I make clear and logically organized HTML code. Converting PSD files to HTML is easy for me so I do it very quickly. Combination of aesthetics and ability to present readable content, makes me fill strong even when I work on frontend."
+      javascript: "I experienced working with both - plain javascript and followed frameworks - jQuery, Ext JS, backbone.js and recently node.js. By using this tools I`m happy to adding elements of dynamic interactions to my applications."
+      photoshop: "Photoshop is an application in which I move fluently. Thanks to aesthetic sense and experience what I gained when I made reconstructions of designers layouts - I am able to create well looked designs."
+      ui_design: "When working on managerial position, many times I meet the situation when I have been forced to create easy to use, intutive user interfaces."
+      other: "I also have experience with leading small (up to 6 persons) team of programmers, using SCRUM metodology to manage projects. I am an able communicator, creative and have can think 'outside the box' and I enjoy working in a team."
 
       server_maintenance_label: "Server Maintenance"
-      other_label: "Inne"
+      other_label: "Others"
 
     cv:
       personal_info_header: "Personal Info"
@@ -43,4 +71,3 @@ en:
       find_me_on_header: "Find me on"
       looking_for_header: "Looking for"
       looking_for: "Creative team, doing their work with passion, not affraid of challenges. Searching for the simplest solutions to the most complex problems."
-

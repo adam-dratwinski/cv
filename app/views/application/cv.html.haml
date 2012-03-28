@@ -20,35 +20,7 @@
   #hobbies_group.group
     .hobbies
       %h2= t(".hobbies_header")
-      %ul
-        %li.internet
-          .icon-wrapper
-            .icon
-          %h4 Internet
-        %li.swimming
-          .icon-wrapper
-            .icon
-          %h4 Swiming
-        %li.cycling
-          .icon-wrapper
-            .icon
-          %h4 Cycling
-        %li.traveling
-          .icon-wrapper
-            .icon
-          %h4 Traveling
-        %li.coffee
-          .icon-wrapper
-            .icon
-          %h4 Baristics
-        %li.speedway
-          .icon-wrapper
-            .icon
-          %h4 Speedway
-        %li.fashion
-          .icon-wrapper
-            .icon
-          %h4 Fashion
+      = render "hobbies"
   #find_me_group.group
     .find-me
       %h2= t(".find_me_on_header")

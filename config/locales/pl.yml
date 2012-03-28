@@ -188,9 +188,36 @@ pl:
         format: "%{attribute}%{message}"
 
   application: 
+    personal_info: 
+      nationality: "Narodowość"
+      polish: "Polska"
+      marital_status: "Stan cywilny"
+      single: "Kawaler"
+      date_of_birth: "Data urodzenia"
+      4_of_september: "4 września 1987"
+      address: "Adres"
+      phone_number: "Numer telefonu"
+      email: "E-mail"
+      website: "Strona internetowa"
+      languages: "Języki"
+      languages_values: "Polski - rodzimy, Angielski - Biegle"
+
+    education:
+      school: "Nazwa szkoły"
+      school_value: "ZSTIO Gorzów"  
+      specialization: "Kierunek"
+      specialization_value: "Informatyka, Matematyka i Język Angielski"
+
+
     work_experience:
-      exp_resp_1_1: "zarządzanie i kontrola pracy małych grup programistów (do 6 osób)"
-      exp_resp_1_2: "projektowanie i rozwój dwoch dużych systemów ERP (ponad 80 tabel w bazie danych)"
+      company: "Firma"
+      occupations: "Stanowisko"
+      responsibilities: "Obowiązki"
+      since_2009_to_now: "(od 2009-09)"
+      since_2008_to_2009: "(od 2008-04 do 2009-09)"
+
+      exp_resp_1_1: "Zarządzanie i kontrola pracy małych grup programistów (do 6 osób)"
+      exp_resp_1_2: "Projektowanie i rozwój dwoch dużych systemów ERP (ponad 80 tabel w bazie danych)"
       exp_resp_1_3: "Analiza i zbieranie wymagań od klientów"
       exp_resp_1_4: "Organizowanie testów aplikacji"
       exp_resp_1_5: "Przeprowadzanie rozmów, tworzenie testów rekrutacyjnych"
@@ -228,4 +255,4 @@ pl:
       hobbies_header: "Hobby"
       find_me_on_header: "Tu mnie znajdziesz"
       looking_for_header: "Szukam"
-      looking_for: "Kreatywnej drużyny, wykonującej swoją pracę z pasją. Nie bojącej się wyzwań. Poszukującą najprostszych rozwiązań, najbardziej złożonych problemów."
+      looking_for: "Kreatywnego zespołu, wykonującego swoją pracę z pasją, nie bojąc się wyzwań. Ludzi poszukujących najprostszych rozwiązań, na najbardziej złożone problemy."

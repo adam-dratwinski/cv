@@ -1,24 +1,24 @@
 %dl
-  %dt Company
+  %dt= t(".company")
   %dd
-    %strong American Systems 
-    (from 2009-09 to now)
-  %dt Occupation
+    %strong American Systems, Poznań, Poland
+    = t(".since_2009_to_now")
+  %dt= t(".occupations")
   %dd.occupation Project Manager, Ruby On Rails Developer
-  %dt Responsibilities
+  %dt= t(".responsibilities") 
   %dd.responsibilities
     %ul
       - 10.times do |i|
         %li= t(".exp_resp_1_#{i+1}")
 
 %dl
-  %dt Company
+  %dt= t(".company") 
   %dd
-    %strong Inspireo.com
-    (from 2008-04 to 2009-09)
-  %dt Occupation
+    %strong Inspireo.com, Poznań, Poland
+    = t(".since_2008_to_2009")
+  %dt= t(".occupations")
   %dd.occupation PHP Developer, Unix Administrator
-  %dt Responsibilities
+  %dt= t(".responsibilities") 
   %dd.responsibilities
     %ul
       - 4.times do |i|

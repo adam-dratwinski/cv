@@ -1,7 +1,11 @@
 %dl
-  %dt School
+  %dt= t(".school") 
   %dd
-    %strong General/Comprehensive Secondary School in Gorzów 
+    %strong= t(".school_value") 
     (2003-2006)
-  %dt Specialization
-  %dd informatic and science
+  - if I18n.locale == :en
+    %dt Subjects covered
+    %dd Mathematics, Science, English, Polish, Biology, Information Technology, History
+
+  %dt= t(".specialization") 
+  %dd= t(".specialization_value") 

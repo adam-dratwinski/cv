@@ -1,21 +1,22 @@
 %dl
-  %dt Nationality
-  %dd Polish
-  %dt Gender
-  %dd Male
-  %dt Marital Status
-  %dd Single
-  %dt Date of birth
-  %dd 4th of september 1987
-  %dt Full Address
+  %dt= t(".nationality")
+  %dd= t(".polish")
+  - unless I18n.locale == :pl
+    %dt= t(".gender")
+    %dd= t(".male")
+  %dt= t(".marital_status") 
+  %dd= t(".single")
+  %dt= t(".date_of_birth")
+  %dd= t(".4_of_september") 
+  %dt= t(".address") 
   %dd
     Walczaka 57/6, 66-400 Gorzów, Poland
-  %dt Phone number
+  %dt= t(".phone_number") 
   %dd +48 7222 36066
-  %dt Email address
+  %dt= t(".email") 
   %dd adam.dratwinski@gmail.com
-  %dt Website
-  %dd adam.itboys.pl
-  %dt Languages
+  %dt= t(".website") 
+  %dd= link_to "adam.itboys.pl", "http://adam.itboys.pl"
+  %dt= t(".languages") 
   %dd
-    Polish - native, English - fluent
+    = t(".languages_values")
