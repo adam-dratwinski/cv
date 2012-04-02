@@ -35,11 +35,10 @@ en:
       exp_resp_1_2: "the design and development of three large ERP systems with over 80 databases tables each"
       exp_resp_1_3: "the development of software packages for individual clients"
       exp_resp_1_4: "the recruitment and employment of staff"
-      exp_resp_1_5: "??? Please leave it for Margaret - she needs to check what I meant in polish version???eveloping popular web service (600 000 page views per month)"
-      exp_resp_1_6: "??? Please leave it for Margaret - she needs to check what I meant in polish version???creation of web services and a dozen or so pages that are based on CMS"
-      exp_resp_1_7: "the programming of web applications based on Ruby (Ruby on Rails), PHP (Kohana, Symfony, codeigniter) and Javascript (node.js, backbone.js, jQuery, extJS, prototype)"
-      exp_resp_1_8: "code optimisation - detecting and rewriting slow SQL quiries"
-      exp_resp_1_9: "integration of external API - i.a. Google, Facebook, Allegro"
+      exp_resp_1_5: "web portals and internet application based on CMS creation"
+      exp_resp_1_6: "the programming of web applications based on Ruby (Ruby on Rails), PHP (Kohana, Symfony, codeigniter) and Javascript (node.js, backbone.js, jQuery, extJS, prototype)"
+      exp_resp_1_7: "code optimisation - detecting and rewriting slow SQL quiries"
+      exp_resp_1_8: "integration of external API - i.a. Google, Facebook, Allegro"
 
       exp_resp_2_1: "creating HTML code, based on PSD files"
       exp_resp_2_2: "the installation and personalisation of internet applications - e-commerce: SOTE 4, SOTE 5, quickCart and WordPress, Joomla, Mantis"
@@ -62,7 +61,7 @@ en:
       other_label: "Others"
 
     personal_statement: 
-      personal_statement: "I have a passion for working with computers which I have developed from an early age. I created my first PHP application when I was 16. Till now I am getting more experienced in web technologies. Two years ago I left PHP, and I started working with Ruby on Rails. I loved that language from the first moment. I appreciate his clearance, simplicity huge capabilities and active community. I made every effort to give my code as clear and logicaly constructed as it is posible. I know many design patterns and general code organising principles. I know everything about HTML 5 and CSS 3. Combination of it with my aesthetic taste make me feel strong even on the frontend side."
+      personal_statement: "I have a passion for working with computers which I have developed from an early age. I created my first PHP application when I was 16. Since then I am highly experienced in web technologies. Two years ago I discovered Ruby on Rails and I 'fall in love' with that language from the first moment. I appreciate his clearance, simplicity, huge capabilities and active community. I make every effort to give my code as clear and logicaly constructed as it is posible. I know many design patterns and general codes organising principles. I know everything about HTML 5 and CSS 3. This combination with my aesthetic taste makes me strong even on the frontend side."
     cv:
       personal_info_header: "Personal Info"
       education_header: "Education"
