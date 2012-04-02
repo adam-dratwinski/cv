@@ -4,35 +4,63 @@ body, html {margin: 0; padding: 0;}
 body {
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   color: #3c3c33;
-  background: #789B3C;
   background: #F5F6F7;
   font-size: 14px;
+  line-height: 20px;
   padding-top: 30px;
 }
-.navigation {
-  display: block;
-  background: #3D6A7D;
-  box-shadow: 0 0 10px 0 #999;
-  border-bottom: 1px solid #315463;
-  padding: 10px;
+body.print {
+  background: #fff;
+  padding-top: 0;
+}
+.navbar {
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   top: 0;
   left: 0;
   right: 0;
-}
-.navigation ul {
-  width: 932px; 
-  margin: 0 auto;
-}
-.navigation ul li {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 16px;
-}
-.navigation ul li a {
-  color: #fff;
-  text-decoration: none;
+  @include box-shadow(rgba(0,0,0,0.2) 2px 2px 2px);
+  @include background(linear-gradient(#323232, #232323));
+  
+  .container {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .brand {
+    color: #fff;
+    float: left;
+    display: block;
+    padding: 8px 20px 12px;
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1;
+    text-decoration: none;
+  }
+  nav {
+    display: inline-block;
+    li {
+      display: inline-block;
+      color: #999;
+      a {
+        color: #999;
+        text-decoration: none;
+        padding: 10px 10px 11px;
+        display: block;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .contact {
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    vertical-align: top;
+    padding: 8px 0 12px;
+  }
 }
 
 a {
@@ -43,8 +71,8 @@ h1 {
   color: #3D6A7D;
   font-size: 50px;
   line-height: 60px;
+  font-weight: bold;
   margin: 0;
-  text-shadow: lighten(#3d6a7d, 25%) 1px 1px 5px;
 }
 .full-name {
   display: inline-block;
@@ -69,52 +97,44 @@ h1 {
   background: #fff;
 }
 
+.print .me-wrapper {
+  top: 10px;
+  right: 0;
+}
+
 .page {
   position: relative;
   background: #fff;
   margin: 10px auto;
   padding: 50px 70px;
   width: 790px;
-  height: 1120px;
   border: 1px solid #bbb;
-  box-shadow: 0 0 6px 0 #999;
+  @include box-shadow(0 0 6px 0 #999);
   margin-top: 50px;
   margin-bottom: 50px;
   display: block;
 }
 
+.print .page {
+  @include box-shadow(0 0 0 0);
+  border: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 890px;
+}
+
 .group {
   margin-top: 30px;
+  padding-bottom: 5px;
 }
 .group h2 {
   color: #3D6A7D;
-  text-shadow: #ddd 2px 0 3px;
   margin: 10px 0;
   border-bottom: 1px solid #bbb;
   padding-bottom: 5px;
 }
 
-.personal-info-group ul {
-  display: inline-block;
-}
-.personal-info-group li {
-  margin: 10px 0;
-}
-.personal-info-group label {
-  font-size: 16px;
-  display: inline-block;
-  width: 150px;
-}
-
-.personal-info-group strong {
-  vertical-align: top;
-  display: inline-block;
-  width: 440px;
-  font-size: 16px;
-}
-
-.skills {
-}
 .skills h3 {
   margin-bottom: 10px;
   font-size: 16px;
@@ -152,11 +172,6 @@ h1 {
   font-size: 13px;
 }
 
-
-.hobbies {
-  border-bottom: 1px solid #ddd;
-}
-
 .hobbies li {
   vertical-align: top;
   opacity: 0.8;
@@ -165,6 +180,7 @@ h1 {
   display: inline-block;
   cursor: pointer;
   padding: 1px;
+  margin-bottom: 0;
 }
 .hobbies .icon-wrapper {
   box-shadow: 0px 0px 5px 0px #000;
@@ -240,14 +256,15 @@ dl {
   dt {
     text-align: right;
     color: #3D6A7D;
-    width: 210px;
-    margin-right: 10px;
+    width: 25%;
+    margin-left: -20px;
+    padding-right: 15px;
     display: inline-block;
     vertical-align: top;
   }
   dd {
     display: inline-block;
-    width: 540px;
+    width: 75%;
     margin-bottom: 10px;
     strong {
       color: #3D6A7D;
@@ -255,7 +272,7 @@ dl {
     }
     ul {
       list-style: circle;
-      margin-left: 20px;
+      margin-left: 18px;
       li {
         list-style: circle;
         margin-bottom: 5px;
@@ -296,6 +313,7 @@ dl {
 
 #skills_group {
   dl dd p {
+    margin-top: 5px;
     display: block;
   }
   dl dd strong {
@@ -319,9 +337,6 @@ dl {
 @import "find-me-icons/*.png"; // */
 
 #find_me_group {
-  .find-me {
-    border-bottom: 1px solid #ddd;
-  }
   .find-me-icon {
     width: 32px;
     height: 32px;

@@ -3,12 +3,14 @@
   %dd
     %strong American Systems, Poznań, Poland
     = t(".since_2009_to_now")
+  %dt= t(".website")
+  %dd= link_to "american-systems.pl", "http://american-systems.pl"
   %dt= t(".occupations")
   %dd.occupation Project Manager, Ruby On Rails Developer
   %dt= t(".responsibilities") 
   %dd.responsibilities
     %ul
-      - 10.times do |i|
+      - 9.times do |i|
         %li= t(".exp_resp_1_#{i+1}")
 
 %dl
@@ -16,6 +18,8 @@
   %dd
     %strong Inspireo.com, Poznań, Poland
     = t(".since_2008_to_2009")
+  %dt= t(".website")
+  %dd= link_to "inspireo.com", "http://inspireo.com"
   %dt= t(".occupations")
   %dd.occupation PHP Developer, Unix Administrator
   %dt= t(".responsibilities") 

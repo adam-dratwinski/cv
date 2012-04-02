@@ -1,27 +1,28 @@
-%section.page
+.page
   %h1.full-name Adam Dratwiński
   .me-wrapper
     .me
       = image_tag "/assets/me.jpg"
-  #personal_info_group.group
+  %section#personal_info_group.group
     %h2= t(".personal_info_header")
     = render "personal_info"
-  #education_group.group
+  %section#education_group.group
     %h2= t(".education_header") 
     = render "education"
-  #work_experience_group.group
+  %section#personal_statement_group.group
+    %h2= t(".personal_statement_header")
+    = render "personal_statement"
+  %section#work_experience_group.group
     %h2= t(".work_experience_header")
     = render "work_experience"
-%section.page
-  #skills_group.group
+  %section#skills_group.group
     %h2= t(".skills_header")
     = render "skills"
-%section.page
-  #hobbies_group.group
+  %section#hobbies_group.group
     .hobbies
       %h2= t(".hobbies_header")
       = render "hobbies"
-  #find_me_group.group
+  %section#find_me_group.group
     .find-me
       %h2= t(".find_me_on_header")
       %ul
@@ -34,7 +35,7 @@
         %li 
           = link_to " ", "https://github.com/boooz", class: "find-me-icon icon-github"
           = link_to "boooz", "https://github.com/boooz"
-  #looking_for.group
+  %section#looking_for_group.group
     .looking-for
       %h2= t(".looking_for_header") 
       %p= t(".looking_for")

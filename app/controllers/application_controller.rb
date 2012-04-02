@@ -3,6 +3,12 @@ class ApplicationController < ActionController::Base
 
   before_filter :set_user_language
 
+  def cv
+
+  end
+
+  private
+
   def set_user_language
     I18n.locale = params[:locale] || I18n.default_locale
   end
