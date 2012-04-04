@@ -13,6 +13,11 @@ body.print {
   background: #fff;
   padding-top: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
 .navbar {
   position: fixed;
   z-index: 9999;
@@ -241,8 +246,11 @@ h1 {
 .hobbies .speedway .icon {
   @include hobbies-icons-sprite(speedway);
 }
-.hobbies .fashion .icon {
-  @include hobbies-icons-sprite(fashion);
+.hobbies .poker .icon {
+  @include hobbies-icons-sprite(poker);
+}
+.hobbies .pool .icon {
+  @include hobbies-icons-sprite(pool);
 }
 
 h2 {

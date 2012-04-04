@@ -29,13 +29,13 @@ en:
       occupations: "Job Title"
       responsibilities: "Responsibilities included"
       since_2009_to_now: "(from 09-2009 to now)"
-      since_2008_to_2009: "(from 04-2008 to 09-2009)"
+      since_2008_to_2009: "(from 04-2008 to 08-2009)"
 
-      exp_resp_1_1: "the managment of a small team of computer programmers"
-      exp_resp_1_2: "the design and development of three large ERP systems with over 80 databases tables each"
+      exp_resp_1_1: "the management of a small team of computer programmers"
+      exp_resp_1_2: "the design and development of three large ERP systems with over 80 database tables each"
       exp_resp_1_3: "the development of software packages for individual clients"
       exp_resp_1_4: "the recruitment and employment of staff"
-      exp_resp_1_5: "web portals and internet application based on CMS creation"
+      exp_resp_1_5: "designing web portals and internet application based on CMS creation"
       exp_resp_1_6: "the programming of web applications based on Ruby (Ruby on Rails), PHP (Kohana, Symfony, codeigniter) and Javascript (node.js, backbone.js, jQuery, extJS, prototype)"
       exp_resp_1_7: "code optimisation - detecting and rewriting slow SQL quiries"
       exp_resp_1_8: "integration of external API - i.a. Google, Facebook, Allegro"
@@ -46,14 +46,14 @@ en:
       exp_resp_2_4: "the installation and maintenance of dedicated server with DirectAdmin software"
     
     skills:
-      rails: "2 years experience of developing Ruby on Rails applications. Worked with versions 2.x, 3.0, 3.1, 3.2 with many popular gems (such as Sphinx, Capystrano, RSpec, Cucumber, CanCan, Unicorn, Thin, Formtastic, SimpleForm, Twitter bootstrap, Compass, Guard and others). Active participant in the Rails community, also creating and updating existing Ruby Gems."
-      php: "9 years of working with PHP. Founder and developer of a company framework (modelled on the RoR) which helps to develop large ERP applications (i.e. in excess of 80 database tables). Detalied knowledge of frameworks including Kohana, CodeIgniter and Symfony."
+      rails: "2 years experience of developing Ruby on Rails applications. Worked with versions 2.x, 3.0, 3.1, 3.2 and with many popular gems (such as Sphinx, Capystrano, RSpec, Cucumber, CanCan, Unicorn, Thin, Formtastic, SimpleForm, Twitter bootstrap, Compass, Guard and others). Active participant in the Rails community, as well as creating and updating existing Ruby Gems."
+      php: "9 years of working with PHP. Founder and developer of a company framework (modelled on the RoR) which helps to develop large ERP applications (i.e. in excess of 80 database tables). Detailed knowledge of frameworks including Kohana, CodeIgniter and Symfony."
       sql: "Fully experienced in JOINs, HAVINGs and UNIONs, making query optimisations, detecting and removing slow queries."
       code_testing: "Experienced in creating well-tested codes, using RSpec, Cucumber and Capybara as testing frameworks."
       design_patterns: "??? Please leave it for Margaret - she needs to check what I meant in polish version??? Confident in design patterns. While writting my code I try to make it clear even for other programmers. Applying DRY and SRP principles, creating well named, the least functions, makes reading of my code is a pleasure."
       html5: "Experienced in using current HTML coding as well as converting PSD files to HTML."
       javascript: "Experienced in working with plain javascript and other frameworks - jQuery, Ext JS, backbone.js and node.js."
-      photoshop: "Very experienced in using Photoshop particulary when using it to produce a web designer's layout for others to understand."
+      photoshop: "Very experienced in using Photoshop particularly when using it to produce a web designer's layout for others to understand."
       ui_design: "The ability of create easy to use and intuitive user interfaces."
       other: "I also have experience with leading small (up to 6 persons) team of programmers, using SCRUM metodology to manage projects. I am an able communicator, creative and have can think 'outside the box' and I enjoy working in a team."
 
@@ -61,7 +61,8 @@ en:
       other_label: "Others"
 
     personal_statement: 
-      personal_statement: "I have a passion for working with computers which I have developed from an early age. I created my first PHP application when I was 16. Since then I am highly experienced in web technologies. Two years ago I discovered Ruby on Rails and I 'fall in love' with that language from the first moment. I appreciate his clearance, simplicity, huge capabilities and active community. I make every effort to give my code as clear and logicaly constructed as it is posible. I know many design patterns and general codes organising principles. I know everything about HTML 5 and CSS 3. This combination with my aesthetic taste makes me strong even on the frontend side."
+      personal_statement: "I have a passion for working with computers, which I have developed from an early age. I created my first PHP application when I was just 16. Since then I have become very experienced in all aspects of web technologies. Two years ago I was introduced to Ruby on Rails and I 'fell in love' with the language. I appreciate it`s clarity, its simplicity, it`s ease of use as well as it`s impressive capabilities and associated active community. When programming I endeavour to make every code as clear and logicaly as posible. I am fully conversant with many design patterns as well as the organising principles associated with general codes. I know everything there is to know about HTML 5 and CSS 3. With my backend skills in developing programmes and their frontend application I have a strong sense of what is possible when developing a programme and the knowledge to make it work."
+
     cv:
       personal_info_header: "Personal Info"
       education_header: "Education"
