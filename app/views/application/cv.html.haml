@@ -6,36 +6,30 @@
   %section#personal_info_group.group
     %h2= t(".personal_info_header")
     = render "personal_info"
+  %section#personal_statement_group.group.underlined
+    %h2= t(".personal_statement_header")
+    = render "personal_statement"
   %section#education_group.group
     %h2= t(".education_header") 
     = render "education"
-  %section#personal_statement_group.group
-    %h2= t(".personal_statement_header")
-    = render "personal_statement"
   %section#work_experience_group.group
     %h2= t(".work_experience_header")
     = render "work_experience"
   %section#skills_group.group
     %h2= t(".skills_header")
     = render "skills"
-  %section#hobbies_group.group
+  %section#references_group.group
+    %h2= t(".references_header")
+    = render "references"
+  %section#hobbies_group.group.underlined
     .hobbies
       %h2= t(".hobbies_header")
       = render "hobbies"
-  %section#find_me_group.group
+  %section#find_me_group.group.underlined
     .find-me
       %h2= t(".find_me_on_header")
-      %ul
-        %li
-          = link_to " ", "https://www.facebook.com/adam.dratwinski", class: "find-me-icon icon-facebook"
-          = link_to "adam.dratwinski", "https://www.facebook.com/adam.dratwinski"
-        %li 
-          = link_to " ", "https://plus.google.com/u/0/114751623322945392883/", class: "find-me-icon icon-google-plus"
-          = link_to "adam.dratwinski@gmail.com", "https://plus.google.com/u/0/114751623322945392883/"
-        %li 
-          = link_to " ", "https://github.com/boooz", class: "find-me-icon icon-github"
-          = link_to "boooz", "https://github.com/boooz"
-  %section#looking_for_group.group
+      = render "find_me"
+  %section#looking_for_group.group.underlined
     .looking-for
       %h2= t(".looking_for_header") 
       %p= t(".looking_for")

@@ -45,7 +45,7 @@ module Cv
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
       config.time_zone = 'Warsaw'
-      config.i18n.default_locale = :pl
+      config.i18n.default_locale = :en
       config.generators do |g|
         g.template_engine = :haml
       end

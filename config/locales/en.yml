@@ -21,7 +21,7 @@ en:
     education:
       school: "School"
       school_value: "General/Comprehensive Secondary School in Gorzów"  
-      specialization: "Specialization"
+      specialization: "Specialisation"
       specialization_value: "Information Technology, Mathematics and English"
 
     work_experience: 
@@ -35,13 +35,13 @@ en:
       exp_resp_1_2: "the design and development of three large ERP systems with over 80 database tables each"
       exp_resp_1_3: "the development of software packages for individual clients"
       exp_resp_1_4: "the recruitment and employment of staff"
-      exp_resp_1_5: "designing web portals and internet application based on CMS creation"
-      exp_resp_1_6: "the programming of web applications based on Ruby (Ruby on Rails), PHP (Kohana, Symfony, codeigniter) and Javascript (node.js, backbone.js, jQuery, extJS, prototype)"
-      exp_resp_1_7: "code optimisation - detecting and rewriting slow SQL quiries"
+      exp_resp_1_5: "designing web portals and Internet application based on CMS creation"
+      exp_resp_1_6: "the programming of web applications based on Ruby (Ruby on Rails), PHP (Kohana, Symfony, codeigniter) and JavaScript (node.js, backbone.js, jQuery, extJS, prototype)"
+      exp_resp_1_7: "code optimisation - detecting and rewriting slow SQL queries"
       exp_resp_1_8: "integration of external API - i.a. Google, Facebook, Allegro"
 
       exp_resp_2_1: "creating HTML code, based on PSD files"
-      exp_resp_2_2: "the installation and personalisation of internet applications - e-commerce: SOTE 4, SOTE 5, quickCart and WordPress, Joomla, Mantis"
+      exp_resp_2_2: "the installation and personalisation of Internet applications - e-commerce: SOTE 4, SOTE 5, quickCart and WordPress, Joomla, Mantis"
       exp_resp_2_3: "the programming of web applications based on PHP, JavaScript, jQuery"
       exp_resp_2_4: "the installation and maintenance of dedicated server with DirectAdmin software"
     
@@ -52,7 +52,7 @@ en:
       code_testing: "Experienced in creating well-tested codes, using RSpec, Cucumber and Capybara as testing frameworks."
       design_patterns: "??? Please leave it for Margaret - she needs to check what I meant in polish version??? Confident in design patterns. While writting my code I try to make it clear even for other programmers. Applying DRY and SRP principles, creating well named, the least functions, makes reading of my code is a pleasure."
       html5: "Experienced in using current HTML coding as well as converting PSD files to HTML."
-      javascript: "Experienced in working with plain javascript and other frameworks - jQuery, Ext JS, backbone.js and node.js."
+      javascript: "Experienced in working with plain JavaScript and other frameworks - jQuery, Ext JS, backbone.js and node.js."
       photoshop: "Very experienced in using Photoshop particularly when using it to produce a web designer's layout for others to understand."
       ui_design: "The ability of create easy to use and intuitive user interfaces."
       other: "I also have experience with leading small (up to 6 persons) team of programmers, using SCRUM metodology to manage projects. I am an able communicator, creative and have can think 'outside the box' and I enjoy working in a team."
@@ -61,7 +61,12 @@ en:
       other_label: "Others"
 
     personal_statement: 
-      personal_statement: "I have a passion for working with computers, which I have developed from an early age. I created my first PHP application when I was just 16. Since then I have become very experienced in all aspects of web technologies. Two years ago I was introduced to Ruby on Rails and I 'fell in love' with the language. I appreciate it`s clarity, its simplicity, it`s ease of use as well as it`s impressive capabilities and associated active community. When programming I endeavour to make every code as clear and logicaly as posible. I am fully conversant with many design patterns as well as the organising principles associated with general codes. I know everything there is to know about HTML 5 and CSS 3. With my backend skills in developing programmes and their frontend application I have a strong sense of what is possible when developing a programme and the knowledge to make it work."
+      personal_statement_1: "I have a passion for working with computers, which I have developed from an early age. I created my first PHP application when I was just 16. Since then I have become very experienced in all aspects of web technologies. Two years ago I was introduced to Ruby on Rails and I 'fell in love' with the language. I appreciate it`s clarity, its simplicity, it`s ease of use as well as it`s impressive capabilities and associated active community. "
+      personal_statement_2: "When programming I endeavour to make every code as clear and logically as possible. I am fully conversant with many design patterns as well as the organising principles associated with general codes. I know everything there is to know about HTML 5 and CSS 3. With my backend skills in developing programmes and their frontend application I have a strong sense of what is possible when developing a programme and the knowledge to make it work."
+    references:
+      content: "Content"
+      as_1: "Mr Adam Dratwiński stood out as multi-talented IT Specialist and the Manager of Programmers Department while we working at the informatics’ projects such as “The computer system of projects management” commissioned by F5 Consulting, “The computer system of trainings management” commissioned by REFA Wielkopolska."
+      as_2: "Adam Dratwiński perfectly fulfilled all tasks entrusted to him. He have an extensive experience and professional knowledge. He is open minded, keep learning new technology news and he can think analytically. He demonstrated an innovative approach to custom problems, willingly and efficiently implemented new technologies in developed projects."
 
     cv:
       personal_info_header: "Personal Info"
@@ -72,4 +77,5 @@ en:
       find_me_on_header: "Find me on"
       looking_for_header: "Looking for"
       looking_for: "Creative team, doing their work with passion, not affraid of challenges. Searching for the simplest solutions to the most complex problems."
+      references_header: "References"
       personal_statement_header: "Personal statement"

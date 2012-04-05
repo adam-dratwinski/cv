@@ -89,9 +89,10 @@ h1 {
   border: 1px solid #bbb;
   font-size: 0;
   @include border-radius(5px);
-  @include box-shadow(rgba(0,0,0,0.2) 2px 2px 2px);
+  @include box-shadow(rgba(0,0,0,0.2) 0 0 4px);
   img {
     display: block;
+    margin-bottom: -5px;
   }
 }
 .me-wrapper {
@@ -131,7 +132,6 @@ h1 {
 
 .group {
   margin-top: 30px;
-  padding-bottom: 5px;
 }
 .group h2 {
   color: #3D6A7D;
@@ -177,11 +177,16 @@ h1 {
   font-size: 13px;
 }
 
+.hobbies ul {
+  margin-bottom: 10px;
+}
+
 .hobbies li {
   vertical-align: top;
   opacity: 0.8;
   text-align: center;
   margin: 5px;
+  margin-right: 10px;
   display: inline-block;
   cursor: pointer;
   padding: 1px;
@@ -274,6 +279,9 @@ dl {
     display: inline-block;
     width: 75%;
     margin-bottom: 10px;
+    p {
+      margin-bottom: 5px;
+    }
     strong {
       color: #3D6A7D;
       font-weight: bold;
@@ -321,7 +329,6 @@ dl {
 
 #skills_group {
   dl dd p {
-    margin-top: 5px;
     display: block;
   }
   dl dd strong {
@@ -356,6 +363,9 @@ dl {
     margin-right: 10px;
   }
 
+  .find-me ul {
+    margin-bottom: 10px;
+  }
 
   .icon-facebook {
     @include find-me-icons-sprite(facebook);
@@ -369,5 +379,13 @@ dl {
     @include find-me-icons-sprite(github);
     vertical-align: middle;
   }
+}
+
+.underlined {
+  border-bottom: 1px solid #ddd;
+}
+
+p {
+  margin-bottom: 10px;
 }
 

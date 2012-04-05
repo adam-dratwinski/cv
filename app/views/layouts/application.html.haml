@@ -24,11 +24,11 @@
           = link_to "Adam Dratwiński", root_path, class: "brand"
           %nav
             %ul
-              %li= link_to "Curriculum Vitae", "#"
-              - if params[:locale] == "pl"
-                %li= link_to "English version", url_for(locale: :en) 
+              %li= link_to "Curriculum Vitae", url_for
+              - if I18n.locale == :pl
+                %li= link_to "English", url_for(locale: :en) 
               - else
-                %li= link_to "Polish version", url_for(locale: :pl)
+                %li= link_to "Polish", url_for(locale: :pl)
               %li= link_to "Print", url_for(print: true)
           %span.contact
             adam.dratwinski@gmail.com
@@ -40,3 +40,4 @@
             %a.close{"data-dismiss" => "alert"} x
             = msg
         = yield
+    = render "analytics"
