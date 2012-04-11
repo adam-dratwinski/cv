@@ -50,7 +50,6 @@ en:
       php: "9 years of working with PHP. Founder and developer of a company framework (modelled on the RoR) which helps to develop large ERP applications (i.e. in excess of 80 database tables). Detailed knowledge of frameworks including Kohana, CodeIgniter and Symfony."
       sql: "Fully experienced in JOINs, HAVINGs and UNIONs, making query optimisations, detecting and removing slow queries."
       code_testing: "Experienced in creating well-tested codes, using RSpec, Cucumber and Capybara as testing frameworks."
-      design_patterns: "??? Please leave it for Margaret - she needs to check what I meant in polish version??? Confident in design patterns. While writting my code I try to make it clear even for other programmers. Applying DRY and SRP principles, creating well named, the least functions, makes reading of my code is a pleasure."
       html5: "Experienced in using current HTML coding as well as converting PSD files to HTML."
       javascript: "Experienced in working with plain JavaScript and other frameworks - jQuery, Ext JS, backbone.js and node.js."
       photoshop: "Very experienced in using Photoshop particularly when using it to produce a web designer's layout for others to understand."
@@ -62,7 +61,7 @@ en:
 
     personal_statement: 
       personal_statement_1: "I have a passion for working with computers, which I have developed from an early age. I created my first PHP application when I was just 16. Since then I have become very experienced in all aspects of web technologies. Two years ago I was introduced to Ruby on Rails and I 'fell in love' with the language. I appreciate it`s clarity, its simplicity, it`s ease of use as well as it`s impressive capabilities and associated active community. "
-      personal_statement_2: "When programming I endeavour to make every code as clear and logically as possible. I am fully conversant with many design patterns as well as the organising principles associated with general codes. I know everything there is to know about HTML 5 and CSS 3. With my backend skills in developing programmes and their frontend application I have a strong sense of what is possible when developing a programme and the knowledge to make it work."
+      personal_statement_2: "When programming I endeavour to make every code as clear and logically as possible. I am fully conversant with many design patterns as well as the organising principles associated with general codes. I know everything there is to know about HTML 5 and CSS 3. With my backend skills in developing programmes and their frontend application I have a strong sense of what is possible when developing an applications and the knowledge to make it work."
     references:
       content: "Content"
       as_1: "Mr Adam Dratwiński stood out as multi-talented IT Specialist and the Manager of Programmers Department while we working at the informatics’ projects such as “The computer system of projects management” commissioned by F5 Consulting, “The computer system of trainings management” commissioned by REFA Wielkopolska."
