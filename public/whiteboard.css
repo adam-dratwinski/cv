@@ -1,0 +1,461 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {background:transparent none repeat scroll 0 0;border:0 none;margin:0;outline-color:-moz-use-text-color;outline-style:none;outline-width:0;padding:0;}
+    body, html {margin: 0; padding: 0; font-family: 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;}
+ul {list-style: none;}
+a {
+  color: #000;
+  text-decoration: none
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  background:#eee;
+  margin: 0;
+  overflow-x: hidden;
+  color: #3c3c33;	
+  font-family: 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;	
+  font-size:11px;	
+}
+.panel {
+  position: absolute;
+  z-index: 1;
+}
+
+.panel.top, .panel.bottom {
+  background: url(/images/tab_bg.png) repeat-x;
+  border: 1px solid #ccc;
+  padding: 1px;
+}
+
+.panel.top {
+  height: 23px;
+  z-index: 2;
+
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.panel.left, .panel.right {
+  width: 190px;
+  top: 32px;
+  bottom: 25px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.panel.left {
+  left: 0;
+  -moz-box-shadow: 2px 2px 5px #ddd;
+}
+.panel.right {
+  right: 0;
+  -moz-box-shadow: -2px -2px 5px #ddd;
+}
+.panel.bottom {
+  bottom: 0;
+  height: 20px;
+  left: 0;
+  right: 0;
+}
+
+.panel.middle {
+  z-index:0;
+  padding: 7px;
+  bottom: 20px;
+  left: 190px;
+  right: 190px;
+  top: 25px;
+}
+
+#whiteboard {
+  margin-left: -1px;
+  background: #fff;
+  border: 1px solid #ccc;
+  height: 100%;
+  width: 100%;
+}
+
+.panel.bottom p {
+  margin: 3px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.panel.bottom .status {
+  float: left;
+}
+.panel.bottom .status.closed {
+  color: #c20000;
+}
+.panel.bottom .status.closed a {
+  color: #c20000;
+  background: url(/images/icons/record.png) 0 50% no-repeat;
+  padding-left: 19px;
+  text-decoration: none;
+}
+
+.panel.bottom .last_saved {
+  float: right;
+}
+
+#top_menu {
+  z-index: 2;
+  float: left;
+  border-right: 1px solid #ccc;
+  padding: 1px 0 0 0;
+  width: 188px;
+}
+
+#top_menu li {
+  float: left;
+}
+
+#top_menu li.hover {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
+  z-index: 1px;
+}
+
+#top_menu li a {
+  line-height: 15px;
+  display: block; 
+  padding: 2px 5px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  -moz-border-radius: 3px 3px 3px 3px;
+}
+
+#top_menu li a:hover {
+  border: 1px solid #ccc;
+  background-color: #eee;
+  text-decoration: none;
+}
+
+#top_menu li a span {
+  text-decoration: underline;
+}
+#top_menu .sub_menu {
+  background: #ccc;
+  position: absolute;
+  float: left;
+  z-index: 1000;
+  display: none;
+  margin-top: 0;
+  margin-left: -1px;
+  border-top: none;
+  padding: 0;
+  border: 1px solid #ccc;
+}
+#top_menu .sub_menu li {
+  float: left;
+  background: #d9dddd;
+  padding: 2px;
+  clear: both;
+  border-top: 1px solid #ccc;
+  width: 140px;
+}
+#top_menu .sub_menu li:first-child {
+  border-top: none;
+}
+#top_menu .sub_menu li.unactive a {
+  color: #999;
+  cursor: normal;
+  border: 1px solid transparent;
+}
+#top_menu .sub_menu li.unactive a:hover {
+  color: #999;
+  background: none;
+  cursor: auto;
+  border: 1px solid transparent;
+}
+#top_menu .sub_menu li abbr {
+  float: right;
+  font-style: italic;
+}
+#top_menu .sub_menu li abbr.more {
+  float: right;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  top: -2px;
+  position: relative;
+}
+
+#top_menu .hover .sub_menu {
+  display: block;
+}
+
+#top_menu .sub_menu .sub_menu {
+  left: 145px;
+  margin-top: -24px;
+}
+#paint_toolbar {
+  margin-left: 5px;
+  float: left;
+}
+
+#paint_toolbar li {
+  background-repeat: no-repeat;
+  margin: 0 3px;
+  float: left;
+}
+
+.icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -moz-border-radius: 3px 3px 3px 3px;
+  padding: 1px;
+  margin: 1px;
+}
+
+.icon:hover {
+  border: 1px solid #ccc;
+  background-color: #eee;
+  text-decoration: none;
+}
+
+.icon.image {
+  background-image: url(/images/icons/image.png);
+}
+.icon.pencil {
+  background-image: url(/images/icons/pencil.png);
+}
+.icon.brush {
+  background-image: url(/images/icons/brush.png);
+}
+.icon.bucket {
+  background-image: url(/images/icons/bucket.png);
+}
+.icon.circle {
+  background-image: url(/images/icons/circle.png);
+}
+.icon.text {
+  background-image: url(/images/icons/text.png);
+}
+.icon.cloud {
+  background-image: url(/images/icons/cloud.png);
+}
+.icon.square {
+  background-image: url(/images/icons/square.png);
+}
+.icon.add {
+  background-image: url(/images/icons/add.png);
+}
+.icon.close {
+  background-image: url(/images/icons/close.gif);
+}
+.icon.cursor {
+  background-image: url(/images/icons/cursor.png);
+}
+.icon.save {
+  background-image: url(/images/icons/save.png);
+}
+.icon.send {
+  background-image: url(/images/icons/send.png);
+}
+.icon.text_color {
+  background-image: url(/images/icons/text-color.png);
+  background-position: 50% 2px;
+}
+#paint_toolbar .text_color_picker {
+  height: 4px;
+  width: 16px; 
+  margin: 4px;
+  margin-top: 16px;
+  margin-left: 3px;
+  float: left;
+}
+
+.panel h2 {
+  float: left;
+  width: 100%;
+  background: url(/images/tab_bg.png) repeat-x;
+  font-size: 12px;
+  display: block;
+  text-align: left;
+  padding: 1px 0 4px 0;
+  cursor: pointer;
+}
+
+.panel h2 span {
+  float: left;
+  font-size: 12px;
+  padding: 4px 0 4px 0;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.panel h2 .icon {
+  float: right;
+  margin-right: 1px;
+}
+
+.panel .container {
+  position: absolute;
+  left: 0;
+  width: 190px;
+}
+
+.panel .container .content {
+  margin-top: 26px;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  overflow-x: hidden;
+  padding: 3px 5px;
+}
+
+#chat strong span {
+  float: right;
+}
+
+#chat ul {
+  bottom: 22px;
+  border-bottom: 1px solid #bbb;
+}
+
+#chat ul li {
+  float: left;
+  border-top: 1px dashed #ccc;
+  margin-top: 2px;
+  padding-top: 2px;
+}
+
+#chat ul li:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#chat .send_message {
+  position: absolute; 
+  bottom: 0;
+  height: 17px;
+  border: none;
+  padding: 2px 0;
+  padding-left: 20px;
+  width: 146px;
+  font-size: 12px;
+  background: #fff url(/images/icons/chat.png) no-repeat 2px 50%;
+  color: #3c3c33;
+  left: 0;
+}
+
+#chat .icon.send {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#slides li {
+  margin-top: 5px;
+  float: left;
+}
+
+#slides li .slide {
+  width: 160px;
+  height: 100px;
+  border: 3px solid #ccc;
+  cursor: pointer;
+}
+
+#slides li.hover .slide {
+  border-color: #eabc33;
+}
+
+#slides li .actions {
+  float: right;
+  margin-right: 5px;
+}
+#slides li .actions a {
+  color: #6688ee;
+}
+
+.list {
+  float: left;
+}
+
+.list.vertical {
+  float: left;
+}
+
+#connected_people {
+  overflow-x: hidden;
+}
+
+#connected_people li {
+  float: left;
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+#connected_people li img {
+  vertical-align: top;
+  border: 1px solid #ccc;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 0 3px 0 0;
+}
+
+#connected_people li strong {
+  position: absolute;
+  left: 43px;
+  right: 0;
+  overflow: hidden;
+  height: 15px;
+  width: 300px;
+}
+
+#connected_people li p{
+  margin-top: 15px;
+}
+
+#connected_people li a{
+  color: #6688ee;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3c3c33;
+  opacity: 0.7;
+  z-index: 99999;
+}
+.panel.modal {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-top: none;
+  background: #fff;
+  z-index: 100000;
+  position: absolute;
+  -moz-box-shadow: 0px 0px 10px 2px #3c3c33;
+  left: 40%;
+  top: 20%;
+}
+.panel.modal h2{
+  cursor: move;
+}
+.panel.modal .content {
+  padding: 5px; 
+}
+.panel.modal h2 span.close {
+  float: right;
+  cursor: pointer;
+  position: relative;
+  top: -2px;
+  right: -5px;
+}

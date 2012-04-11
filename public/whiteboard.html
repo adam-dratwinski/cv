@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Whiteboard</title>
+    <style type="text/css">
+    </style>
+    <link type="text/css" rel="stylesheet" href="whiteboard.css">
+	<script type="text/javascript">
+    </script>
+</head>
+<body>
+    <div class="panel top">
+        <ul id="top_menu">
+            <li class=""><a href="#"><span>P</span>lik</a>
+                <ul class="sub_menu">
+                    <li><a href="#"><span>N</span>owy<abbr class="more">&raquo;</abbr></a>
+                        <ul class="sub_menu">
+                            <li><a href="#"><span>P</span>rojekt<abbr>Ctrl+N</abbr></a></li>
+                            <li class="unactive"><a href="#"><span>S</span>zablon<abbr>Ctrl+S</abbr></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span>O</span>twórz<abbr>Ctrl+O</abbr></a></li>
+                    <li><a href="#"><span>Z</span>amknij<abbr>Ctrl+N</abbr></a></li>
+                </ul>
+            </li>
+            <li class="hover"><a href="#"><span>E</span>dycja</a>
+                <ul class="sub_menu">
+                    <li><a href="#"><span>C</span>ofnij troche<abbr>Ctrl+Z</abbr></a></li>
+                    <li class="unactive"><a href="#"><span>P</span>onów<abbr>Ctrl+Y</abbr></a>
+                        <ul class="sub_menu">
+                            <li><a href="#"><span>P</span>rojekt<abbr>Ctrl+N</abbr></a></li>
+                            <li class="unactive"><a href="#"><span>S</span>zablon<abbr>Ctrl+S</abbr></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#"><span>H</span>istoria</a></li>
+            <li><a href="#"><span>P</span>omoc</a></li>
+        </ul>
+        <ul id="paint_toolbar">
+            <li><a href="#" title="zapisz prezentacje" class="icon save"></a></li>
+            <li><a href="#" title="zaznacz" class="icon cursor"></a></li>
+            <li><a href="#" title="rysuj ołówkiem" class="icon pencil"></a></li>
+            <li><a href="#" title="maluj pędzlem" class="icon brush"></a></li>
+            <li><a href="#" title="wprowadź text" class="icon text"></a></li>
+            <li><a href="#" title="zamaluj obszar" class="icon bucket"></a></li>
+            <li><a href="#" title="rysuj kwadrat" class="icon square"></a></li>
+            <li><a href="#" title="rysuj kółko" class="icon circle"></a></li>
+            <li><a href="#" title="wstaw obrazek" class="icon image"></a></li>
+            <li><a href="#" title="wstaw dymek" class="icon cloud"></a></li>
+            <li><div class="text_color_picker" style="background-color: #ff0000"></div><a href="#" title="wybierz kolor tekstu" class="icon text_color"></a></style></li>
+        </ul>
+    </div>
+    <div class="panel left">
+        <div id="media_library" class="container" style="top: 0; height: 50%;">
+            <h2>
+                <span>Bibloteka materiałów</span>
+            </h2>
+        </div>
+        <div id="slides" class="container" style="top: 50%; height: 50%;">
+            <h2>
+                <span>Lista slajdów</span>
+                <a href="#" class="icon add" title="Dodaj nowy slajd"></a>
+            </h2>
+            <ul class="content">
+                <li class="hover">
+                    <div class="slide"></div>
+                    <span class="actions"><a href="#">usuń</a>, <a href="#">skopiuj</a></span>
+                </li>
+                <li>
+                    <div class="slide"></div>
+                    <span class="actions"><a href="#">usuń</a>, <a href="#">skopiuj</a></span>
+                </li>
+                <li>
+                    <div class="slide"></div>
+                    <span class="actions"><a href="#">usuń</a>, <a href="#">skopiuj</a></span>
+                </li>
+                <li>
+                    <div class="slide"></div>
+                    <span class="actions"><a href="#">usuń</a>, <a href="#">skopiuj</a></span>
+                </li>
+                <li>
+                    <div class="slide"></div>
+                    <span class="actions"><a href="#">usuń</a>, <a href="#">skopiuj</a></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="panel middle">
+        <div id="whiteboard">
+        </div>
+    </div>
+    <div class="panel right">
+        <div id="connected_people" class="container" style="height: 50%; top: 0;">
+            <h2>
+                <span>Połączone osoby</span>
+            </h2>
+            <ul class="content">
+                <li>
+                    <img src="/images/avatar_1.png" alt="">
+                    <strong>Joanna Kwiatkowska</strong>
+                    <p>
+                        <a href="#">zbanuj</a>,<a href="#">udziel głosu</a>
+                    </p>
+                </li>
+                <li>
+                    <img src="/images/avatar_2.png" alt="">
+                    <strong>Joanna Kwiatkowska</strong>
+                    <p>
+                        <a href="#">zbanuj</a>,<a href="#">udziel głosu</a>
+                    </p>
+                </li>
+                <li>
+                    <img src="/images/avatar_3.png" alt="">
+                    <strong>Joanna Kwiatkowska</strong>
+                    <p>
+                        <a href="#">zbanuj</a>,<a href="#">udziel głosu</a>
+                    </p>
+                </li>
+                <li>
+                    <img src="/images/avatar_1.png" alt="">
+                    <strong>Joanna Kwiatkowska</strong>
+                    <p>
+                        <a href="#">zbanuj</a>,<a href="#">udziel głosu</a>
+                    </p>
+                </li>
+                <li>
+                    <img src="/images/avatar_2.png" alt="">
+                    <strong>Joanna Kwiatkowska</strong>
+                    <p>
+                        <a href="#">zbanuj</a>,<a href="#">udziel głosu</a>
+                    </p>
+                </li>
+                <li>
+                    <img src="/images/avatar_3.png" alt="">
+                    <strong>Joanna Kwiatkowska</strong>
+                    <p>
+                        <a href="#">zbanuj</a>,<a href="#">udziel głosu</a>
+                    </p>
+                </li>
+                <li>
+                    <img src="/images/avatar_1.png" alt="">
+                    <strong>Joanna Kwiatkowska</strong>
+                    <p>
+                        <a href="#">zbanuj</a>,<a href="#">udziel głosu</a>
+                    </p>
+                </li>
+                <li>
+                    <img src="/images/avatar_2.png" alt="">
+                    <strong>Joanna Kwiatkowska</strong>
+                    <p>
+                        <a href="#">zbanuj</a>,<a href="#">udziel głosu</a>
+                    </p>
+                </li>
+                <li>
+                    <img src="/images/avatar_3.png" alt="">
+                    <strong>Joanna Kwiatkowska</strong>
+                    <p>
+                        <a href="#">zbanuj</a>,<a href="#">udziel głosu</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div id="chat" class="container" style="height: 50%; top: 50%;">
+            <h2>
+                <span>Czat</span>
+            </h2>
+            <ul class="content">
+                <li>
+                    <strong>Joanna Kowalska <span>21:11</span></strong>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </li>
+                <li>
+                    <strong>Mateusz Nowak <span>21:12</span></strong>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </li>
+            </ul>
+            <input type="text" value="Tutaj wpisz wiadomość" class="send_message">
+            <a href="#" class="icon send"></a>
+        </div>
+    </div>
+    <div class="panel bottom">
+        <p class="status closed"><a href="#">Strumieniowanie tablicy włączone [wyłącz]</a></p>
+        <p class="last_saved">Ostatnio zapisano o 17:23:34</p>
+    </div>
+    <div class="overlay" style="display: none">
+    </div>
+    <div class="panel modal" style="display: none">
+        <h2>
+            <span>Dodaj nowy slajd</span>
+            <a href="#" class="icon close"></a>
+        </h2>
+        <div class="content">
+            Zawartość
+        </div>
+    </div>
+</body>
+</html>
+
